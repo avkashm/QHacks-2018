@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SLAC.iml" filepath="$PROJECT_DIR$/SLAC.iml" />
+      <module fileurl="file://C:\Users\Avkash\Desktop\University of Toronto\QHacks-2018\SLAC\SLAC.iml" filepath="C:\Users\Avkash\Desktop\University of Toronto\QHacks-2018\SLAC\SLAC.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Avkash\Desktop\University of Toronto\QHacks-2018\SLAC\app\app.iml" filepath="C:\Users\Avkash\Desktop\University of Toronto\QHacks-2018\SLAC\app\app.iml" />
     </modules>
   </component>
 </project>
