@@ -25,32 +25,32 @@ void loop() {
   int sensorValue7 = digitalRead(TouchPin7);
 
   if (sensorValue2 == 1){
-    Serial.print("touch 2");
+    Serial.print("Doctor 1");
     delay(1500);
   }
 
   if (sensorValue3 == 1){
-    Serial.print("touch 3");
+    Serial.print("Doctor 2");
     delay(1500);
   }
 
   if (sensorValue4 == 1){
-    Serial.print("touch 4");
+    Serial.print("EEG 1");
     delay(1500);
   }
 
   if (sensorValue5 == 1){
-    Serial.print("touch 5");
+    Serial.print("EEG 2");
     delay(1500);
   }
 
   if (sensorValue6 == 1){
-    Serial.print("touch 6");
+    Serial.print("MRI 1");
     delay(1500);
   }
 
   if (sensorValue7 == 1){
-    Serial.print("touch 7");
+    Serial.print("MRI 2");
     delay(1500);
   }
 
