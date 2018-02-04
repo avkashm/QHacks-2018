@@ -21,8 +21,18 @@ void setup() {
   int sensorValue5 = digitalRead(TouchPin5);
   int sensorValue6 = digitalRead(TouchPin6);
   int sensorValue7 = digitalRead(TouchPin7);
+}
 
-  if (sensorValue2 == 1){
+void loop() {
+  
+  int sensorValue2 = digitalRead(TouchPin2);
+  int sensorValue3 = digitalRead(TouchPin3);
+  int sensorValue4 = digitalRead(TouchPin4);
+  int sensorValue5 = digitalRead(TouchPin5);
+  int sensorValue6 = digitalRead(TouchPin6);
+  int sensorValue7 = digitalRead(TouchPin7);
+
+    if (sensorValue2 == 1){
     Serial.write("Doctor 201\n");
     delay(500);
   }
@@ -51,46 +61,4 @@ void setup() {
     Serial.write("X-Ray 01\n");
     delay(500);
   }
-}
-
-void loop() {
-  
-  int sensorValue2 = digitalRead(TouchPin2);
-  int sensorValue3 = digitalRead(TouchPin3);
-  int sensorValue4 = digitalRead(TouchPin4);
-  int sensorValue5 = digitalRead(TouchPin5);
-  int sensorValue6 = digitalRead(TouchPin6);
-  int sensorValue7 = digitalRead(TouchPin7);
-
-  if (sensorValue2 == 1){
-    Serial.write("Doctor 1\n");
-    delay(500);
-  }
-
-  if (sensorValue3 == 1){
-    Serial.write("Doctor 2\n");
-    delay(500);
-  }
-
-  if (sensorValue4 == 1){
-    Serial.write("EEG 1\n");
-    delay(500);
-  }
-
-  if (sensorValue5 == 1){
-    Serial.write("EEG 2\n");
-    delay(500);
-  }
-
-  if (sensorValue6 == 1){
-    Serial.write("MRI 1\n");
-    delay(500);
-  }
-
-  if (sensorValue7 == 1){
-    Serial.write("MRI 2\n");
-    delay(500);
-  }
-  
-
 }

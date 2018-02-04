@@ -23,7 +23,6 @@ public class dbAccesser {
         	se.printStackTrace();
         }
         
-        
     }
 	
 	public static void checkOut(Connection conn,String iName, String iID, String uID, String uType) {
